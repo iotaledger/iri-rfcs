@@ -5,7 +5,7 @@ language, see [Rust RFC repository] for more information. Also see
 [maidsafe's RFC process] for another project into the crypto space.
 Our approach is taken and adapted from these.
 
-To make more substantial changes to bee, we ask for these to go through a more
+To make more substantial changes to iri, we ask for these to go through a more
 organized design process --- an *RFC* (request for comments) process. The goal
 is to organize work between the different developers affiliated with the IOTA
 Foundation, and the wider open source community. We want to vet the ideas early
@@ -15,7 +15,7 @@ biggest questions are taken care of.
 ## What is *substantial* and when to follow this process
 
 You need to follow this process if you intend to make *substantial* changes to
-IRI and any of its constituting subcrates.
+IRI.
 
 + Anything that constitutes a breaking change as understood in the context of *semantic versioning*.
 + Any semantic or syntactic change to the existing algorithms that is not a bug fix.
@@ -31,7 +31,7 @@ Some changes do not require an RFC:
   (warning removal, speedup, better platform coverage, more parallelism, trap
   more errors, etc.)
 + *Internal* additions, i.e. additions that are invisible to users of the public API, and which probably
-will be only noticed by developers of bee.
+will be only noticed by developers of iri.
 
 If you submit a pull request to implement a new feature without going through
 the RFC process, it may be closed with a polite request to submit an RFC first.
@@ -39,11 +39,11 @@ the RFC process, it may be closed with a polite request to submit an RFC first.
 ## The workflow of the RFC process
 
 > With both Rust and maidsafe being significantly larger projects, not all the steps below
-might be relevant to bee's RFC process (for example, at the moment there are no dedicated subteams). However, to instill good open source governance we attempt to follow this process already now.
+might be relevant to iri's RFC process (for example, at the moment there are no dedicated subteams). However, to instill good open source governance we attempt to follow this process already now.
 
-In short, to get a major feature added to bee, one must first get the RFC
+In short, to get a major feature added to iri, one must first get the RFC
 merged into the RFC repository as a markdown file. At that point the RFC is
-"active" and may be implemented with the goal of eventual inclusion into bee.
+"active" and may be implemented with the goal of eventual inclusion into iri.
 
 + Fork the RFC repository
 + Copy `0000-template.md` to `text/0000-my-feature/0000-my-feature.md` (where
