@@ -1,4 +1,4 @@
-# BEE RFCs
+# IRI RFCs
 
 > This process is modelled after the approach taken by the Rust programming
 language, see [Rust RFC repository] for more information. Also see
@@ -15,7 +15,7 @@ biggest questions are taken care of.
 ## What is *substantial* and when to follow this process
 
 You need to follow this process if you intend to make *substantial* changes to
-bee and any of its constituting subcrates.
+IRI and any of its constituting subcrates.
 
 + Anything that constitutes a breaking change as understood in the context of *semantic versioning*.
 + Any semantic or syntactic change to the existing algorithms that is not a bug fix.
@@ -182,7 +182,7 @@ consensus and community norms, not impose more structure than necessary.
 
 # Contributions, license, copyright
 
-This bee network library is licensed under Apache License, Version 2.0,
+This IRI network library is licensed under Apache License, Version 2.0,
 ([LICENSE-APACHE] or http://www.apache.org/licenses/LICENSE-2.0). Any
 contribution intentionally submitted for inclusion in the work by you, as
 defined in the Apache-2.0 license, shall be licensed as above, without any
